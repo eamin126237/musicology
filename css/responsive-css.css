@@ -1,0 +1,24 @@
+/* mobile */
+@media (max-width: 991px) {
+    #amazing .amazing_first_row .col-lg-9 {
+        padding-left: 0rem !important;
+        padding-right: 4rem;
+    }
+    #amazing .amazing_second_row .col-lg-9 {
+        padding-right: 0rem !important;
+        padding-left: 4rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        justify-content: space-between;
+    }
+    .search_icon {
+        display: none;
+    }
+    #amazing .amazing_second_row .col-lg-9 {
+        padding-left: 0rem !important;
+        padding-right: 4rem !important;
+    }
+}
